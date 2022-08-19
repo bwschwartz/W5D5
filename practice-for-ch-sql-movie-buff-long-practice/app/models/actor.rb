@@ -7,6 +7,10 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
+# Indexes
+#
+#  index_actors_on_name  (name)
+#
 class Actor < ApplicationRecord
   validates :name, presence: true
   
